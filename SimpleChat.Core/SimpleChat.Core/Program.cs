@@ -10,6 +10,7 @@ namespace SimpleChat.Core
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("servus");
         }
     }
 }
