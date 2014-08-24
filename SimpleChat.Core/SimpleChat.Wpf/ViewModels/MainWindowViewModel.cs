@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SimpleChat.Wpf.ViewModels.Interfaces;
+using SimpleChat.Client.Wpf.ViewModels.Interfaces;
 
-namespace SimpleChat.Wpf.ViewModels
+namespace SimpleChat.Client.Wpf.ViewModels
 {
     public class MainWindowViewModel : IMainWindowViewModel
     {

@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
-using SimpleChat.Wpf.ViewModels;
+﻿using System.Windows;
+using SimpleChat.Client.Wpf.ViewModels;
 
-namespace SimpleChat.Wpf
+namespace SimpleChat.Client.Wpf
 {
     /// <summary>
     /// Interaktionslogik für "App.xaml"

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Allgemeine Informationen über eine Assembly werden über die folgenden 
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
-[assembly: AssemblyTitle("SimpleChat.Networking")]
+[assembly: AssemblyTitle("SimpleChat.Client")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SimpleChat.Networking")]
+[assembly: AssemblyProduct("SimpleChat.Client")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Die folgende GUID bestimmt die ID der Typbibliothek, wenn dieses Projekt für COM verfügbar gemacht wird
-[assembly: Guid("780e4b8c-9afc-42e4-8911-3aae1d15486e")]
+[assembly: Guid("cacb47f5-7ecf-4d96-986a-c4f4595d1680")]
 
 // Versionsinformationen für eine Assembly bestehen aus den folgenden vier Werten:
 //

@@ -1,4 +1,4 @@
-﻿namespace SimpleChat.Wpf.ViewModels.Interfaces
+﻿namespace SimpleChat.Client.Wpf.ViewModels.Interfaces
 {
     public interface IMainWindowViewModel
     {

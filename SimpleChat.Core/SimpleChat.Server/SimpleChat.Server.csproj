@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1CA7250B-E931-4A0C-AD46-D24790570816}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{63425A5F-5C7B-4FB9-81FA-731A6FFD13D1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SimpleChat.Core</RootNamespace>
-    <AssemblyName>SimpleChat.Core</AssemblyName>
+    <RootNamespace>SimpleChat.Server</RootNamespace>
+    <AssemblyName>SimpleChat Server</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,9 +31,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,11 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Objects\Client\ClientUser.cs" />
-    <Compile Include="Objects\Server\ServerUser.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleChat.Core\SimpleChat.Core.csproj">
+      <Project>{1ca7250b-e931-4a0c-ad46-d24790570816}</Project>
+      <Name>SimpleChat.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleChat.Networking\SimpleChat.Networking.csproj">
+      <Project>{5027e76e-58dc-4e01-b8b2-3640c2ed68aa}</Project>
+      <Name>SimpleChat.Networking</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

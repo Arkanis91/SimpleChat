@@ -1,5 +1,5 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:converters="clr-namespace:SimpleChat.Wpf.Converters">
+                    xmlns:converters="clr-namespace:SimpleChat.Client.Wpf.Converters">
     <converters:StatusToColorConverter x:Key="StatusToColorConverter" />
 </ResourceDictionary>

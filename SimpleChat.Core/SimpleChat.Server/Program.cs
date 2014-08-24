@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleChat.Core
+namespace SimpleChat.Server
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("servus");
         }
     }
 }
