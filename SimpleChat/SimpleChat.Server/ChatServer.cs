@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleChat.Networking
+namespace SimpleChat.Server
 {
-    public class Receiver : IReceiver
+    public class ChatServer
     {
     }
 }

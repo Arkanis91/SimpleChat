@@ -39,10 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IReceiver.cs" />
+    <Compile Include="IListener.cs" />
     <Compile Include="ISender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Receiver.cs" />
+    <Compile Include="Listener.cs" />
     <Compile Include="Sender.cs" />
   </ItemGroup>
   <ItemGroup>
