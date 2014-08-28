@@ -47,6 +47,10 @@
     <Compile Include="Objects\ChatMessage.cs" />
     <Compile Include="Objects\Client\ClientUser.cs" />
     <Compile Include="Objects\Server\ServerUser.cs" />
+    <Compile Include="Persistence\IFileSerializer.cs" />
+    <Compile Include="Persistence\ISerializer.cs" />
+    <Compile Include="Persistence\SerializerByteArray.cs" />
+    <Compile Include="Persistence\FileSerializerXml.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
